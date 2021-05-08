@@ -30,15 +30,17 @@
 }
 .item__lowerThird {
     display: flex;
+    margin-bottom: 5%;
+    flex-direction: column;
+}
+.item__buttons {
+    display: flex;
 }
 .item__expand {
-    color: #393c41;
-    width: 100;
-    font-size: 3px;
-    margin-top: 3%;
+    display: flex;
+    flex: 1;
     justify-content: center;
-}
-.item__expandIcon {
-    width: 200px;
-    height: 200px;
+    color: #393c41;
+    width: 100%;
+    margin-top: 3%;
 }

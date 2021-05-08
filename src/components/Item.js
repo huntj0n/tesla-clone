@@ -29,7 +29,7 @@ const Item = ({title, desc, backgroundImg, leftBtnText, leftBtnLink, rightBtnTex
                     </div>
                     {first && (
                         <div className="item__expand">
-                            <ExpandMoreIcon className='item__expandIcon'/>
+                            <ExpandMoreIcon />
                         </div>
                     )}
                 </div>

@@ -1,1 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.app__itemsContainer {
+    scroll-snap-type: y mandatory;
+    overflow: scroll;
+    height: 100vh;
+}
